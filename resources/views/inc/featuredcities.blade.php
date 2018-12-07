@@ -1,37 +1,3 @@
-<style>
-    /* ==============================================================
-   FIND PLACES
-   ============================================================== */
-.styled-heading {
-  text-align: center;
-  margin: 0 0 50px; }
-  @media (max-width: 768px) {
-    .styled-heading {
-      margin: 0 0 30px; } }
-  .styled-heading h3 {
-    position: relative;
-    padding: 0 0 23px; }
-    .styled-heading h3:after {
-      position: absolute;
-      content: "";
-      width: 60px;
-      height: 3px;
-      background: #ff3a6d;
-      bottom: 0;
-      left: 50%;
-      -webkit-transform: translateX(-50%);
-      -ms-transform: translateX(-50%);
-      transform: translateX(-50%); }
-
-.find-img-align {
-  padding: 0 0 15px; }
-  @media (max-width: 768px) {
-    .find-img-align {
-      padding: 0; } }
-
-      
-</style>
-
 <!--============================= FEATURED CITIES =============================-->
 <section class="main-block">
         <div class="container">
@@ -121,6 +87,9 @@
                     </div>
                 </div>
             </div>
+            <div class="form-group" style="text-align: center">
+                    <br> <input type="submit" name="btnSubmit" class="btnContact" value="All City Tours" style="width:150px" onclick="location.href='/pages/cityoverview';"/>
+                 </div>
         </div>
     </section>
     <!--//END FIND PLACES -->

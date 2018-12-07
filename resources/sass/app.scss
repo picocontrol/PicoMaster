@@ -1,9 +1,21 @@
 
-// Fonts
+// Fonts - Check urls, of deze laden, nu niet het geval
 @import url('https://fonts.googleapis.com/css?family=Nunito');
 
 // Variables
 @import 'variables';
+@import 'slider';
+@import 'featcities';
+@import 'categories';
+@import 'featguides';
+@import 'contact';
+@import 'buttons';
+@import 'parallax';
+@import 'footer';
+@import 'global';
+@import 'overviewcities';
+@import 'overviewguides';
+@import 'citytemplate';
 
 // Bootstrap
 @import '~bootstrap/scss/bootstrap';

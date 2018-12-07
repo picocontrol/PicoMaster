@@ -1,10 +1,15 @@
 <style>
+    .main-block {
+        width: 75%;
+        margin: 0 auto;
+    }
     /* ==============================================================
    ADD LISTING
    ============================================================== */
-.add-listing-wrap {
+   .add-listing-wrap {
   text-align: center;
-  margin: 0 0 36px; }
+  margin: 0 0 36px; 
+}
   .add-listing-wrap h2 {
     font-weight: 300; }
   .add-listing-wrap p {

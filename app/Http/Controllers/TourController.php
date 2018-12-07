@@ -106,6 +106,7 @@ class TourController extends Controller
         $tours =Tour::find($id);
         $tourtypes = TourType::pluck('tourtypename', 'id');
         $city = City::pluck('name', 'id');
+        abort_if($tours->guide_id !== auth()->id(), 403);
 
 
         $data = array (

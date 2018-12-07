@@ -11,13 +11,14 @@
 
     <!-- Scripts -->
     <script src="{{ asset('js/app.js') }}" defer></script>
+    <script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
 
     <!-- Fonts -->
     <link rel="dns-prefetch" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet" type="text/css">
 
     <!-- Styles -->
-    <link href="{{ asset('https://boiling-beach-35849.herokuapp.com/css/app.css') }}" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     
     
     <style>
@@ -95,19 +96,18 @@ p {
   background: #252a33; }
 
     </style>
+  
 </head>
 <body>
 @include('inc.navbar')
-{{--<div class="container">--}}
-    {{--<main class="py-4">--}}
+
         @include('inc.messages')
         @yield('content')
-    {{--</main>--}}
-{{--</div>--}}
 
-{{--<script src="/vendor/unisharp/laravel-ckeditor/ckeditor.js"></script>--}}
-{{--<script>--}}
-    {{--CKEDITOR.replace( 'article-ckeditor' );--}}
-{{--</script>--}}
+
+<script src="/vendor/unisharp/laravel-ckeditor/ckeditor.js"></script>
+<script>
+    CKEDITOR.replace( 'article-ckeditor' );
+</script>
 </body>
 </html>
